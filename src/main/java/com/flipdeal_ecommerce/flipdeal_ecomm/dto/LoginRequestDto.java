@@ -1,0 +1,13 @@
+package com.flipdeal_ecommerce.flipdeal_ecomm.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginRequestDto {
+
+    private String email;
+    private String password;
+
+}
